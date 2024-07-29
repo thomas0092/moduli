@@ -1,8 +1,8 @@
-import { addizione } from "./calcolatrice/addizione";
-import { sottrazione } from "./calcolatrice/sottrazione";
-import { moltiplicazione } from "./calcolatrice/moltiplicazione";
-import { divisione } from "./calcolatrice/divisione"; 
-import { potenza } from "./calcolatrice/potenza";
+import { addizione } from "./addizione";
+import { sottrazione } from "./sottrazione";
+import { moltiplicazione } from "./moltiplicazione";
+import { divisione } from "./divisione"; 
+import { potenza } from "./potenza";
 
 const testCalcolatrice = () => {
     
@@ -18,3 +18,4 @@ const testCalcolatrice = () => {
         console.error("Errore nella divisione:", error.message);
     }
 };
+testCalcolatrice();
